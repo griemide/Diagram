@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.10">
-  <diagram name="Seite-1" id="YbA9QDg3WB576rQ0Z9me">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.10" pages="2">
+  <diagram name="Subprocess" id="YbA9QDg3WB576rQ0Z9me">
+    <mxGraphModel dx="1106" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CS-j0iZRzzQsMuDtSnzC-1" collapsed="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;                  container=1;collapsible=1;recursiveResize=1;strokeColor=#000000;fillColor=#ffe6cc" value="Subprozess" vertex="1">
+          <mxGeometry height="80" width="240" x="360" y="190" as="geometry">
+            <mxRectangle height="30" width="100" x="240" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CS-j0iZRzzQsMuDtSnzC-2" parent="CS-j0iZRzzQsMuDtSnzC-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#dae8fc" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="30" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CS-j0iZRzzQsMuDtSnzC-3" parent="CS-j0iZRzzQsMuDtSnzC-1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#fff2cc" value="Task A" vertex="1">
+          <mxGeometry height="60" width="160" x="100" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CS-j0iZRzzQsMuDtSnzC-4" parent="CS-j0iZRzzQsMuDtSnzC-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#f8cecc" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="290" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CS-j0iZRzzQsMuDtSnzC-5" edge="1" parent="CS-j0iZRzzQsMuDtSnzC-1" source="CS-j0iZRzzQsMuDtSnzC-2" style="endArrow=block;html=1;strokeColor=#000000" target="CS-j0iZRzzQsMuDtSnzC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CS-j0iZRzzQsMuDtSnzC-6" edge="1" parent="CS-j0iZRzzQsMuDtSnzC-1" source="CS-j0iZRzzQsMuDtSnzC-3" style="endArrow=block;html=1;strokeColor=#000000" target="CS-j0iZRzzQsMuDtSnzC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="beIjC0z8zGr40XdON4AF" name="BPMN">
+    <mxGraphModel dx="1106" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tAAZUldIL0hsiLjtqGAQ-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Pool" vertex="1">
+          <mxGeometry height="190" width="480" x="280" y="430" as="geometry">
+            <mxRectangle height="50" width="40" x="170" y="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAAZUldIL0hsiLjtqGAQ-2" parent="tAAZUldIL0hsiLjtqGAQ-1" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="Lane 1" vertex="1">
+          <mxGeometry height="130" width="460" x="20" as="geometry">
+            <mxRectangle height="30" width="460" x="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAAZUldIL0hsiLjtqGAQ-3" collapsed="1" parent="tAAZUldIL0hsiLjtqGAQ-1" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="Lane 2" vertex="1">
+          <mxGeometry height="30" width="460" x="20" y="130" as="geometry">
+            <mxRectangle height="120" width="460" x="20" y="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAAZUldIL0hsiLjtqGAQ-4" collapsed="1" parent="tAAZUldIL0hsiLjtqGAQ-1" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="Lane 3" vertex="1">
+          <mxGeometry height="30" width="460" x="20" y="160" as="geometry">
+            <mxRectangle height="120" width="460" x="20" y="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
