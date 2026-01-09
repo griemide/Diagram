@@ -2,7 +2,7 @@
   <diagram name="Animation_griemide" id="jOom1orup965f_IblSqe">
     <mxGraphModel dx="753" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="291" math="0" shadow="0">
       <root>
-        <UserObject label="" animation="show z2J31sB-ATKeW9eWTW3W-2 fade&#xa;wait 1000&#xa;show z2J31sB-ATKeW9eWTW3W-1&#xa;wait 1000&#xa;" id="0">
+        <UserObject label="" animation="show z2J31sB-ATKeW9eWTW3W-2 fade&#xa;wait 2000&#xa;show z2J31sB-ATKeW9eWTW3W-1&#xa;wait 8000&#xa;" id="0">
           <mxCell />
         </UserObject>
         <mxCell id="1" parent="0" />
